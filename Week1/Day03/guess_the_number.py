@@ -2,6 +2,8 @@ import random
 mySecretNumber = random.randint(1, 100)
 print("I am thinking of a number between 1 and 100.")
 
+guessTaken = 0
+guess = 0
 # Player is allowed to guess 6 times
 for guessTaken in range(1, 7):
     guess = int(input("Take a guess:"))
